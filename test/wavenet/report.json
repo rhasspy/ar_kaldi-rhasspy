@@ -1,0 +1,330 @@
+{
+  "expected": {
+    "الساعة كام.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "الساعة كام",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "باب الجراج مفتوح او مقفول.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "باب الجراج مفتوح او مقفول",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "الحرارة كام.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "الحرارة كام",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "كام الساعة.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "كام الساعة",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    },
+    "كام الحرارة.wav": {
+      "intent": null,
+      "entities": [],
+      "text": "كام الحرارة",
+      "raw_text": "",
+      "recognize_seconds": 0,
+      "tokens": [],
+      "raw_tokens": [],
+      "wav_seconds": null,
+      "transcribe_seconds": null,
+      "speech_confidence": null,
+      "wav_name": null
+    }
+  },
+  "actual": {
+    "الساعة كام.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "الساعة كام",
+      "raw_text": "الساعة كام",
+      "recognize_seconds": 0.00015862200007177307,
+      "tokens": [
+        "الساعة",
+        "كام"
+      ],
+      "raw_tokens": [
+        "الساعة",
+        "كام"
+      ],
+      "wav_seconds": 2.043375,
+      "transcribe_seconds": 0.314973732999988,
+      "speech_confidence": null,
+      "wav_name": "الساعة كام.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "الساعة",
+          "كام"
+        ],
+        "hypothesis": [
+          "الساعة",
+          "كام"
+        ],
+        "differences": [
+          "الساعة",
+          "كام"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "باب الجراج مفتوح او مقفول.wav": {
+      "intent": {
+        "name": "GetGarageState",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "باب الجراج مفتوح او مقفول",
+      "raw_text": "باب الجراج مفتوح او مقفول",
+      "recognize_seconds": 0.0002036330001828901,
+      "tokens": [
+        "باب",
+        "الجراج",
+        "مفتوح",
+        "او",
+        "مقفول"
+      ],
+      "raw_tokens": [
+        "باب",
+        "الجراج",
+        "مفتوح",
+        "او",
+        "مقفول"
+      ],
+      "wav_seconds": 3.680375,
+      "transcribe_seconds": 0.379625310999927,
+      "speech_confidence": null,
+      "wav_name": "باب الجراج مفتوح او مقفول.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "باب",
+          "الجراج",
+          "مفتوح",
+          "او",
+          "مقفول"
+        ],
+        "hypothesis": [
+          "باب",
+          "الجراج",
+          "مفتوح",
+          "او",
+          "مقفول"
+        ],
+        "differences": [
+          "باب",
+          "الجراج",
+          "مفتوح",
+          "او",
+          "مقفول"
+        ],
+        "words": 5,
+        "errors": 0,
+        "matches": 5,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "الحرارة كام.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "الحرارة كام",
+      "raw_text": "الحرارة كام",
+      "recognize_seconds": 0.00015874500013524084,
+      "tokens": [
+        "الحرارة",
+        "كام"
+      ],
+      "raw_tokens": [
+        "الحرارة",
+        "كام"
+      ],
+      "wav_seconds": 2.0898125,
+      "transcribe_seconds": 0.31168331400022,
+      "speech_confidence": null,
+      "wav_name": "الحرارة كام.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "الحرارة",
+          "كام"
+        ],
+        "hypothesis": [
+          "الحرارة",
+          "كام"
+        ],
+        "differences": [
+          "الحرارة",
+          "كام"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "كام الساعة.wav": {
+      "intent": {
+        "name": "GetTime",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "كام الساعة",
+      "raw_text": "كام الساعة",
+      "recognize_seconds": 0.00017574899993633153,
+      "tokens": [
+        "كام",
+        "الساعة"
+      ],
+      "raw_tokens": [
+        "كام",
+        "الساعة"
+      ],
+      "wav_seconds": 2.147875,
+      "transcribe_seconds": 0.3165548960000706,
+      "speech_confidence": null,
+      "wav_name": "كام الساعة.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "كام",
+          "الساعة"
+        ],
+        "hypothesis": [
+          "كام",
+          "الساعة"
+        ],
+        "differences": [
+          "كام",
+          "الساعة"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    },
+    "كام الحرارة.wav": {
+      "intent": {
+        "name": "GetTemperature",
+        "confidence": 1
+      },
+      "entities": [],
+      "text": "كام الحرارة",
+      "raw_text": "كام الحرارة",
+      "recognize_seconds": 0.0001703459997770551,
+      "tokens": [
+        "كام",
+        "الحرارة"
+      ],
+      "raw_tokens": [
+        "كام",
+        "الحرارة"
+      ],
+      "wav_seconds": 1.9620625,
+      "transcribe_seconds": 0.3201892460001545,
+      "speech_confidence": null,
+      "wav_name": "كام الحرارة.wav",
+      "expected_intent_name": "",
+      "wrong_entities": [],
+      "missing_entities": [],
+      "word_error": {
+        "reference": [
+          "كام",
+          "الحرارة"
+        ],
+        "hypothesis": [
+          "كام",
+          "الحرارة"
+        ],
+        "differences": [
+          "كام",
+          "الحرارة"
+        ],
+        "words": 2,
+        "errors": 0,
+        "matches": 2,
+        "substitutions": 0,
+        "deletions": 0,
+        "insertions": 0,
+        "error_rate": 0
+      }
+    }
+  },
+  "num_wavs": 5,
+  "num_words": 13,
+  "num_intents": 0,
+  "num_entities": 0,
+  "correct_transcriptions": 5,
+  "correct_intent_names": 0,
+  "correct_words": 13,
+  "correct_entities": 0,
+  "correct_intent_and_entities": 0,
+  "transcription_accuracy": 1,
+  "intent_accuracy": null,
+  "entity_accuracy": null,
+  "intent_entity_accuracy": null,
+  "average_transcription_speedup": 7.1600208755319725
+}
