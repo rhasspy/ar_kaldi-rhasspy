@@ -1,0 +1,101 @@
+---
+default:
+  LICENSE:
+    bytes: 1071
+    sha256: 860b11a76460487fcbff1ab2cc7e006fc88efbf776a4c7eafc9b740b0a4c84fc
+  acoustic_model/conf/mfcc.conf:
+    bytes: 44
+    sha256: 3ecadc6f8685df278bff3a8ddca0296368f39000010c66a2dda1eb82f8ab4a1d
+  acoustic_model/conf/mfcc_hires.conf:
+    bytes: 670
+    sha256: ad36416bce0ac9edfb0fdf9df61e128cf44d6e574cf0c681bf95f4677b3b5d72
+  acoustic_model/conf/online_cmvn.conf:
+    bytes: 108
+    sha256: 93fb4bfbc9915676e831f3cd0688c9616831ec56903dd606f972c1890cd23d97
+  acoustic_model/extractor/final.dubm:
+    bytes: 168048
+    sha256: 5e404cb684a2347eeab92a2a08d0331de3448106e9c72148507c5c97ec60ed33
+  acoustic_model/extractor/final.ie:
+    bytes: 19757687
+    sha256: 6c976eac53a8926ba666cbcde2f98bc58c080bbc1ccc2195cb23a08250f54261
+  acoustic_model/extractor/final.mat:
+    bytes: 44815
+    sha256: 7c4bedf668623fcefe2ec32b6ba5f64cd8ff405e54358acb1dc77b44dfcd8318
+  acoustic_model/extractor/global_cmvn.stats:
+    bytes: 1037
+    sha256: 9a80c2c46fe8e421468e4a50e13454d4666b7093954f1698ecfc14b4e9ed1a33
+  acoustic_model/extractor/online_cmvn.conf:
+    bytes: 108
+    sha256: 93fb4bfbc9915676e831f3cd0688c9616831ec56903dd606f972c1890cd23d97
+  acoustic_model/extractor/splice_opts:
+    bytes: 35
+    sha256: 0c7038d5c0dda2b307d27fc9f6aaef3eda2257bfdbce95f333e2077a5ff0a222
+  acoustic_model/ivectors_test_hires/conf/ivector_extractor.conf:
+    bytes: 475
+    sha256: b941fe67edd550a8cf2cc497f66fe094ed0a66a753f8923828c9c7b22defad96
+  acoustic_model/ivectors_test_hires/conf/online_cmvn.conf:
+    bytes: 108
+    sha256: 93fb4bfbc9915676e831f3cd0688c9616831ec56903dd606f972c1890cd23d97
+  acoustic_model/ivectors_test_hires/conf/splice.conf:
+    bytes: 35
+    sha256: 9f0c5f7c82d18eaf25d8bce470efa9f7741f88411fe428774bc0a9bb69a24756
+  acoustic_model/model/cmvn_opts:
+    bytes: 37
+    sha256: c10fae89f7a8b627b95c324cb23e0730ebf6a5326bd3468b698b32587a664986
+  acoustic_model/model/den.fst:
+    bytes: 869334
+    sha256: f063858c01980b4dee05745460b445ee6b9733903914d49671cf89fd7d94b43c
+  acoustic_model/model/final.mdl:
+    bytes: 10699021
+    sha256: 6313969d57af31d6578e27efb1e72d85f1347ff714fecf04c4792573e0524135
+  acoustic_model/model/normalization.fst:
+    bytes: 1026598
+    sha256: 19620c0a7621033ab891e09e65dbe894d4fdcd4ae33c5cdcb768b51281055861
+  acoustic_model/model/tree:
+    bytes: 346688
+    sha256: 17a96ab27604a805b6d797ed3db46243f11350ad9ea428499389e60e40abba5c
+  acoustic_model/phones/extra_questions.txt:
+    bytes: 140
+    sha256: e1068b319ed7e113825e0bb5e11842067cd5065a438e30682da925bf94f3d728
+  acoustic_model/phones/nonsilence_phones.txt:
+    bytes: 128
+    sha256: e04523ab73f7995ea9e3dc54956c562624065595cfa13763c11879e2f7000205
+  acoustic_model/phones/optional_silence.txt:
+    bytes: 4
+    sha256: ebe5d1c9a1dc955e8b0e9d16062b2d6fede3ba741afdb9a6aec65810009bee11
+  acoustic_model/phones/silence_phones.txt:
+    bytes: 12
+    sha256: 15f0e007c3c86a9ceef4d85bd4e8d5750e5ae8a888ed067fa5e8bd6302b30941
+  base_dictionary.txt.gz:
+    bytes: 7407108
+    file-name: base_dictionary.txt
+    sha256: 17f0463e54db57ed03c7fcfd648ca6c0ba2e58539ef0fd7a58e4ec5bd89dcf9e
+  profile.yml:
+    bytes: 774
+    sha256: f0a0a685ef772e3af858d0e116953c16c02fda83caf3cb62e71ac2b93bcfc69e
+  slot_programs/rhasspy/number:
+    bytes: 651
+    sha256: d1f10ccea552c2c9ba2a59dd69705f8e82545592c7db5ca7078b462ed9d08387
+  stop_words.txt:
+    bytes: 6483
+    sha256: d0bc0c1222eda7d25d17b3464529ddb8d41d098783e78e55f86fe97fcd2ed142
+
+# Files needed to guess word pronunciations
+grapheme-to-phoneme:
+  g2p.corpus.gz:
+    bytes: 6751669
+    file-name: g2p.corpus
+    sha256: c87bff8cd085bbd8302bed7f227652cefd027f273fcd7058b5ebfbdfc106045c
+  g2p.fst.gz.part-00:
+    bytes: 26214400
+    file-name: g2p.fst
+    sha256: 61ac85dfd575b3ba12cac46816e27d1c5557923dc4ff7dbc8a1608acad105468
+  g2p.fst.gz.part-01:
+    bytes: 21329952
+    file-name: g2p.fst
+    sha256: 6ba47c3f52ec6f0896c2d39e134c5c4d9ac648d0624aed8c8155c2b8117584e5
+# Sample sentences, etc.
+examples:
+  sentences.ini:
+    bytes: 176
+    sha256: 035fad4e6cba301d9bf6073a700639eaaa40840a3526d20975064a888eaf66bb
